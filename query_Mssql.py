@@ -52,7 +52,7 @@ if __name__ == '__main__':
     pw = read_json('D:/secret/sunlike_DB/','password.txt')
 
     DB = 'DB_WH01'
-    query1 = "SELECT * FROM TF_POS"
+    query1 = "SELECT * FROM {}"
 
     df_cust_wh01 = MSSQL.get_data(host,user,pw,DB,query1)
     df_cust_wh01.to_csv('./MF_BOM_WH01.csv',encoding='utf_8_sig')
