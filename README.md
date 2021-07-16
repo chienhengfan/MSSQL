@@ -1,4 +1,7 @@
-這是一支從mssql 下select query 後可以把 column name+ table轉成csv的程式
+這是一支關於mssql 拉出資料以及insert 資料的程式 
+
+1.下select query 後可以把 column name+ table轉成csv的程式
+2.指定條件把值插入指定table 中的 指定column
 
 套件:pyodbc,pandas
 
