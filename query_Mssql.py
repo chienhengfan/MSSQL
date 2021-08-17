@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
     #
     # DB2 = 'DB_WUHU'
-    # query2 = "SELECT * FROM DB_WUHU.dbo.CUST"
+    # query2 = "SELECT * FROM {your table}"
     #
     # df_cust_wh01 = MSSQL.get_data(host, user, pw, DB2, query2)
-    # df_cust_wh01.to_csv('./CUST_WUHU.csv',encoding='utf_8_sig')
+    # df_cust_wh01.to_csv('./{your export file name}.csv',encoding='utf_8_sig')
